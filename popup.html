@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="popup_script.js"></script>
+  </head>
+  <body class="has-background-dark has-text-white">
+    <section class="section">
+      <div class="control has-text-white">
+        <label class="radio">
+          <input type="radio" name="enable" value="1">
+          Enable 
+        </label>
+        <label class="radio">
+          <input type="radio" name="enable" value="2">
+          Disable
+        </label>
+      </div>
+      <br>
+      <button class="button is-fullwidth is-danger" id="save">Save</button>
+      <br>
+      <ul class="list has-background-dark">
+        <li>
+          <div class="field has-addons">
+            <div class="control">
+              <input class="input" type="text" placeholder="item" name="item[]" value="">
+            </div>
+            <div class="control">
+              <button class="button is-black remove"><i class="fa fa-trash"></i></button>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <div>
+        <button id="add" class="button is-fullwidth is-white" ><i class="fa fa-plus"></i></button>
+      </div>
+    </section>
+  </body>
+</html>
