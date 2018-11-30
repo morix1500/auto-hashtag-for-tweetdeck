@@ -1,6 +1,6 @@
 {
-  "name": "Auto Hashtag",
-  "description": "",
+  "name": "Auto Hashtag For TweetDeck",
+  "description": "Insert the specified hashtag in the Tweet field of TweetDeck.",
   "version": "1.0",
   "manifest_version": 2,
   "browser_action":{
